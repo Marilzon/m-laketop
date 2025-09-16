@@ -24,3 +24,9 @@ services:
       mc mb batman/local-lakehouse;
       tail -f /dev/null
       "
+
+  nessie-catalog:
+    image: projectnessie/nessie:0.76.6
+    container_name: nessie-catalog
+    ports:
+      -"19120:19120"
