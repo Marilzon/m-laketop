@@ -1,0 +1,13 @@
+seeds:
+  my_dbt_trino:
+    schema: landing
+
+models:
+  my_dbt_trino:
+    staging:
+      +tags: staging
+      +schema: staging
+
+    curated:
+      +tags: curated
+      +schema: curated
