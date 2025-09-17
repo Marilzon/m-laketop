@@ -1,0 +1,29 @@
+{"timestamp":"2025-09-17T01:23:18.688162","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dbt_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-17T01:24:47.653870","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dbt_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-17T01:25:29.140962","level":"error","event":"Process timed out, PID: 80","logger":"airflow.utils.timeout.TimeoutPosix"}
+{"timestamp":"2025-09-17T01:25:29.526662Z","level":"error","event":"Exception ignored in: <function _collection_gced at 0x7141a4e00fe0>","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:25:29.537191Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:25:29.538805Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/event/registry.py\", line 53, in _collection_gced","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:25:29.541191Z","level":"error","event":"    def _collection_gced(ref):","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:25:29.541981Z","level":"error","event":"","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:25:29.543538Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py\", line 69, in handle_timeout","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:25:29.544543Z","level":"error","event":"    raise AirflowTaskTimeout(self.error_message)","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:25:29.546159Z","level":"error","event":"airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/dbt_dag.py after 30.0s.","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:25:29.547828Z","level":"error","event":"Please take a look at these docs to improve your DAG import time:","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:25:29.549345Z","level":"error","event":"* https://airflow.apache.org/docs/apache-airflow/3.0.6/best-practices.html#top-level-python-code","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:25:29.552170Z","level":"error","event":"* https://airflow.apache.org/docs/apache-airflow/3.0.6/best-practices.html#reducing-dag-complexity, PID: 80","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:26:07.808588","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dbt_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-17T01:27:27.679751","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dbt_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-17T01:28:04.260638","level":"error","event":"Process timed out, PID: 117","logger":"airflow.utils.timeout.TimeoutPosix"}
+{"timestamp":"2025-09-17T01:28:08.338952Z","level":"error","event":"Exception ignored in: <function _collection_gced at 0x7141a4e00fe0>","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:08.340440Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:08.341580Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/event/registry.py\", line 53, in _collection_gced","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:08.342669Z","level":"error","event":"    def _collection_gced(ref):","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:08.344002Z","level":"error","event":"","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:08.345062Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py\", line 69, in handle_timeout","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:08.345773Z","level":"error","event":"    raise AirflowTaskTimeout(self.error_message)","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:08.346481Z","level":"error","event":"airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/dbt_dag.py after 30.0s.","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:08.350969Z","level":"error","event":"Please take a look at these docs to improve your DAG import time:","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:08.352952Z","level":"error","event":"* https://airflow.apache.org/docs/apache-airflow/3.0.6/best-practices.html#top-level-python-code","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:08.354269Z","level":"error","event":"* https://airflow.apache.org/docs/apache-airflow/3.0.6/best-practices.html#reducing-dag-complexity, PID: 117","chan":"stderr","logger":"processor"}
+{"timestamp":"2025-09-17T01:28:46.349755","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dbt_dag.py","logger":"airflow.models.dagbag.DagBag"}
