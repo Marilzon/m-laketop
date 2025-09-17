@@ -29,4 +29,6 @@ services:
     image: projectnessie/nessie:0.76.6
     container_name: nessie-catalog
     ports:
-      -"19120:19120"
+      - "19120:19120"
+    depends_on:
+      - minio
