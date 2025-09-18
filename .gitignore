@@ -5,7 +5,6 @@ airflow.cfg
 airflow.db
 logs/
 *.log
-
 # Python
 __pycache__/
 *.py[cod]
